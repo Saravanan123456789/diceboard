@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 import logo from './logo.svg';
-import spindice from "./components/spindice";
-import './App.css';
-
-function App() {
+import Diceboard from "./components/Diceboard";
+function App() 
+{
   return (
     <div className="App">
-      <spindice/>
+      <Diceboard/>
     
     </div>
   );

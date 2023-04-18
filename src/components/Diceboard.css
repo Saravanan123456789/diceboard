@@ -1,0 +1,33 @@
+body{
+    background-image: url("photoComponent/bg.webp");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app{
+    text-align: center;
+}
+.app{
+    font-size: larger;
+border:solid 4px rgb(255, 189, 113);
+margin: 30px 500px;
+border-radius: 5px;
+color: white;
+}
+
+
+.rollingdice{
+    color: blueviolet;
+}
+button{
+    padding: 10px 25px;
+    background-color: rgb(255, 189, 113);
+    border: 1px rgb(255, 189, 113);
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:active{
+    background-color: blueviolet;
+   color: rgb(255, 189, 113);
+}
